@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  padding: 25px;
+}
+
+h1,
+h3 {
+  margin: 20px 0;
+}
+
+#menu {
+  list-style-type: none;
+  margin-left: 0;
+}
+
+.menu {
+  text-decoration: none;
+}
+
+ol {
+  margin-left: 20px;
+}
+
+ul {
+  margin-left: 15px;
+}
+li {
+  margin-bottom: 5px;
+}
+img {
+  margin-bottom: 15px;
+}
+
+footer {
+  padding: 20px;
+}
