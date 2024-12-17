@@ -7,24 +7,50 @@
 
 body {
   padding: 25px;
+  background-color: #e6fffe;
+}
+
+h1 {
+  text-align: center;
 }
 
 h1,
 h3 {
   margin: 20px 0;
 }
+
 h4 {
   margin-bottom: 5px;
   margin-top: 10px;
 }
 
 #menu {
+  display: flex;
+  justify-content: center;
   list-style-type: none;
   margin-left: 0;
 }
 
 .menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-decoration: none;
+  margin: 0 20px;
+}
+
+.menu-item img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a img {
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  object-fit: cover;
 }
 
 ol {
@@ -34,11 +60,21 @@ ol {
 ul {
   margin-left: 15px;
 }
+
 li {
   margin-bottom: 5px;
 }
+
 img {
   margin-bottom: 15px;
+}
+
+button {
+  padding: 4px 8px;
+  background-color: #d4aafe;
+  border-radius: 8px;
+  border: 2px solid black;
+  cursor: pointer;
 }
 
 footer {
